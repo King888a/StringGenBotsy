@@ -24,7 +24,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("</> ᴅᴇᴠɪʟs ʜᴇᴀᴠᴇɴ", url=link),
+                                InlineKeyboardButton("</> 𝖣𝖤𝖵𝖨𝖫𝖲 𝖧𝖤𝖠𝖵𝖤𝖭", url=link),
                             ]
                         ]
                     )
