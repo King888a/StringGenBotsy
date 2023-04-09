@@ -57,7 +57,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     elss
         ty = "𝖯𝖸𝖱𝖮𝖦𝖠𝖬"
     if is_bot:
-        ty += "𝖡𝖮𝖳"
+        ty += " 𝖡𝖮𝖳"
     await msg.reply(f"» 𝖳𝖱𝖸𝖨𝖭𝖦 𝖳𝖮 𝖲𝖳𝖠𝖱𝖳 **{ty}** 𝖲𝖤𝖲𝖲𝖨𝖮𝖭 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖮𝖱...")
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, "𝖯𝖫𝖤𝖠𝖲𝖤 𝖲𝖤𝖭𝖣 𝖸𝖮𝖴𝖱 ᴀᴩɪ_ɪᴅ 𝖳𝖮 𝖯𝖱𝖮𝖢𝖤𝖤𝖣.\n\nᴄ𝖫𝖨𝖢𝖪 /skip 𝖥𝖮𝖱 𝖴𝖲𝖨𝖭𝖦 𝖡𝖮𝖳'𝖲 𝖠𝖯𝖨", filters=filters.text)
