@@ -12,7 +12,7 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""Hᴇʏ {msg.from_user.mention},
+        text=f"""𝖧𝖤𝖸 {msg.from_user.mention},
 
 𝖳𝖧𝖨𝖲 𝖨𝖲 {me2},
 𝖠𝖭 𝖮𝖯𝖤𝖭 𝖲𝖮𝖴𝖱𝖢𝖤 𝖲𝖤𝖲𝖲𝖨𝖮𝖭 𝖡𝖮𝖳 𝖦𝖤𝖭𝖤𝖱 𝖶𝖱𝖨𝖳𝖳𝖤𝖭 𝖨𝖭 𝖯𝖸𝖱𝖮𝖦𝖱𝖠𝖬
