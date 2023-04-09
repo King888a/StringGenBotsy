@@ -25,7 +25,7 @@ import config
 
 
 
-ask_ques = "**𝖯𝖫𝖤𝖠𝖲𝖤 𝖢𝖧𝖮𝖮𝖲𝖤 𝖳𝖧𝖤 𝖯𝖸𝖳𝖧𝖮𝖭 𝖫𝖨𝖡𝖱𝖠𝖱𝖸 𝖥𝖮𝖱 𝖶𝖧𝖨𝖢𝖧 𝖸𝖮𝖴 𝖶𝖠𝖭𝖳 𝖳𝖮 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤 𝖲𝖳𝖱𝖨𝖭𝖦 :**"
+ask_ques = "**𝖯𝖫𝖤𝖠𝖲𝖤 𝖢𝖧𝖮𝖮𝖲𝖤 𝖳𝖧𝖤 𝖯𝖸𝖳𝖧𝖮𝖭 𝖫𝖨𝖡𝖱𝖠𝖱𝖸 𝖥𝖮𝖱 𝖶𝖧𝖨𝖢𝖧 𝖸𝖮𝖴 𝖶𝖠𝖭𝖳 𝖳𝖮 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤 𝖲𝖳𝖱𝖨𝖭𝖦 **"
 buttons_ques = [
     [
         InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖱𝖠𝖬", callback_data="pyrogram"),
