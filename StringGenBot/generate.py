@@ -28,11 +28,11 @@ import config
 ask_ques = "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**"
 buttons_ques = [
     [
-        InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖠𝖬", callback_data="pyrogram"),
+        InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖱𝖠𝖬", callback_data="pyrogram"),
         InlineKeyboardButton("𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖠𝖬 𝖡𝖮𝖳", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖱𝖠𝖬 𝖡𝖮𝖳", callback_data="pyrogram_bot"),
         InlineKeyboardButton("𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭 𝖡𝖮𝖳", callback_data="telethon_bot"),
     ],
 ]
@@ -55,7 +55,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     if telethon:
         ty = "𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭"
     elss
-        ty = "𝖯𝖸𝖱𝖮𝖦𝖠𝖬"
+        ty = "𝖯𝖸𝖱𝖮𝖦𝖱𝖠𝖬"
     if is_bot:
         ty += " 𝖡𝖮𝖳"
     await msg.reply(f"» 𝖳𝖱𝖸𝖨𝖭𝖦 𝖳𝖮 𝖲𝖳𝖠𝖱𝖳 **{ty}** 𝖲𝖤𝖲𝖲𝖨𝖮𝖭 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖮𝖱...")
