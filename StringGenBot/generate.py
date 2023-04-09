@@ -60,7 +60,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         ty += "𝖡𝖮𝖳"
     await msg.reply(f"» 𝖳𝖱𝖸𝖨𝖭𝖦 𝖳𝖮 𝖲𝖳𝖠𝖱𝖳 **{ty}** 𝖲𝖤𝖲𝖲𝖨𝖮𝖭 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖮𝖱...")
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, "ᴩʟᴇᴀsᴇ sᴇɴᴅ ʏᴏᴜʀ **ᴀᴩɪ_ɪᴅ** ᴛᴏ ᴩʀᴏᴄᴇᴇᴅ.\n\nᴄʟɪᴄᴋ ᴏɴ /skip ғᴏʀ ᴜsɪɴɢ ʙᴏᴛ's ᴀᴘɪ.", filters=filters.text)
+    api_id_msg = await bot.ask(user_id, "𝖯𝖫𝖤𝖠𝖲𝖤 𝖲𝖤𝖭𝖣 𝖸𝖮𝖴𝖱 ᴀᴩɪ_ɪᴅ 𝖳𝖮 𝖯𝖱𝖮𝖢𝖤𝖤𝖣.\n\nᴄ𝖫𝖨𝖢𝖪 /skip 𝖥𝖮𝖱 𝖴𝖲𝖨𝖭𝖦 𝖡𝖮𝖳'𝖲 𝖠𝖯𝖨", filters=filters.text)
     if await cancelled(api_id_msg):
         return
     if api_id_msg.text == "/skip":
