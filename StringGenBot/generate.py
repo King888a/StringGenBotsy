@@ -25,7 +25,7 @@ import config
 
 
 
-ask_ques = "**» 𝖯𝖫𝖤𝖠𝖲𝖤 𝖫𝖤𝖠𝖲𝖤 𝖳𝖧𝖤 𝖯𝖸𝖳𝖧𝖮𝖭 𝖫𝖨𝖡𝖱𝖠𝖳𝖤 𝖲𝖳𝖱𝖨𝖭𝖦 :**""
+ask_ques = "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**"
 buttons_ques = [
     [
         InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖠𝖬", callback_data="pyrogram"),
