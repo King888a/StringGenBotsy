@@ -25,21 +25,21 @@ import config
 
 
 
-ask_ques = "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**"
+ask_ques = "**» 𝖯𝖫𝖤𝖠𝖲𝖤 𝖫𝖤𝖠𝖲𝖤 𝖳𝖧𝖤 𝖯𝖸𝖳𝖧𝖮𝖭 𝖫𝖨𝖡𝖱𝖠𝖳𝖤 𝖲𝖳𝖱𝖨𝖭𝖦 :**""
 buttons_ques = [
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ", callback_data="pyrogram"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon"),
+        InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖠𝖬", callback_data="pyrogram"),
+        InlineKeyboardButton("𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
+        InlineKeyboardButton("𝖯𝖸𝖱𝖮𝖦𝖠𝖬 𝖡𝖮𝖳", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭 𝖡𝖮𝖳", callback_data="telethon_bot"),
     ],
 ]
 
 gen_button = [
     [
-        InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+        InlineKeyboardButton(text="𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤 𝖲𝖤𝖲𝖲𝖨𝖮𝖭", callback_data="generate")
     ]
 ]
 
@@ -53,9 +53,9 @@ async def main(_, msg):
 
 async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bool = False):
     if telethon:
-        ty = "ᴛᴇʟᴇᴛʜᴏɴ"
-    else:
-        ty = "ᴩʏʀᴏɢʀᴀᴍ"
+        ty = "𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭"
+    elss
+        ty = "𝖯𝖸𝖱𝖮𝖦𝖠𝖬"
     if is_bot:
         ty += " ʙᴏᴛ"
     await msg.reply(f"» ᴛʀʏɪɴɢ ᴛᴏ sᴛᴀʀᴛ **{ty}** sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ...")
