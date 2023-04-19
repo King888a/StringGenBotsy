@@ -85,7 +85,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         return
     phone_number = phone_number_msg.text
     if not is_bot:
-        await msg.reply("» ᴛʀʏɪɴɢ ᴛᴏ sᴇɴᴅ ᴏᴛᴩ ᴀᴛ ᴛʜᴇ ɢɪᴠᴇɴ ɴᴜᴍʙᴇʀ...")
+        await msg.reply("𝖳𝖱𝖸𝖨𝖭𝖦 𝖳𝖮 𝖲𝖤𝖭𝖣 𝖮𝖳𝖯 𝖠𝖳 𝖳𝖧𝖤 𝖦𝖨𝖵𝖤𝖭 𝖭𝖴𝖬𝖡𝖤𝖱")
     else:
         await msg.reply("» ᴛʀʏɪɴɢ ᴛᴏ ʟᴏɢɪɴ ᴠɪᴀ ʙᴏᴛ ᴛᴏᴋᴇɴ...")
     if telethon and is_bot:
