@@ -72,7 +72,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         except ValueError:
             await api_id_msg.reply("**ᴀᴩɪ_ɪᴅ** ᴍᴜsᴛ ʙᴇ ᴀɴ ɪɴᴛᴇɢ", quote=True, reply_markup=InlineKeyboardMarkup(gen_button))
             return
-        api_hash_msg = await bot.ask(user_id, "» ɴᴏᴡ ᴩʟᴇᴀsᴇ sᴇɴᴅ ʏᴏᴜʀ **ᴀᴩɪ_ʜᴀsʜ** ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ", filters=filters.text)
+        api_hash_msg = await bot.ask(user_id, "𝖭𝖮𝖶 𝖯𝖫𝖤𝖠𝖲𝖤 𝖲𝖤𝖭𝖣 𝖸𝖮𝖴𝖱 𝖠𝖯𝖨_𝖧𝖠𝖲𝖧 𝖳𝖮 𝖢𝖮𝖭𝖳𝖨𝖭𝖴𝖤", filters=filters.text)
         if await cancelled(api_hash_msg):
             return
         api_hash = api_hash_msg.text
